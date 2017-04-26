@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/myfriendbday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:cacheColorHint="#00000000"
+        android:divider="#FFCC00"
+        android:dividerHeight="4px"
+        android:textColor="#222">
+    </ListView>
+    <!--
+    <EditText
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Friend"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="22dp"
+        />
+        -->
+</LinearLayout>
